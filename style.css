@@ -1,0 +1,18 @@
+.btn-oc{ margin: 10px 0; cursor:pointer; display:block; height:60px; line-height:60px; font-size:18px; text-align:center; color:#fff; background-image:-webkit-linear-gradient(-256deg, #00A2FF 0%, #0069FF 94%); background-image:linear-gradient(256deg, #00A2FF 0%, #0069FF 94%); background-color:#0069ff\0; border-radius:60px;}
+.btn-oc-sml{ width:134px; height:40px; line-height:40px; font-size:14px;}
+.btn-oc:hover{ color:#fff;}
+.btn-oc:active{ -webkit-transform:scale(.98); transform:scale(.98);}
+.btn-oc-line,.btn-oc-line:hover{ color:#0069FF; background:transparent; border:1px solid #0069FF;}
+.btn-oc-code{ position:absolute; right:0; top:0; width:33%; font-size:14px; border-radius:4px;}
+.btn-oc-disable,.btn-oc-disable:active{	background:#9b9b9b; -webkit-transform:scale(1); transform:scale(1); cursor:default;}
+
+.oc-inpbox{ position:relative;}
+.oc-inpbox .oc-inptxt[type='text'],
+.oc-inpbox .oc-inptxt[type='number'],
+.oc-inpbox .oc-inptxt[type='password']{ padding:0 12px; height:30px; line-height:60px;}
+.oc-inptxt[type='text'],
+.oc-inptxt[type='number'],
+.oc-inptxt[type='password']{ display:block; box-sizing:border-box; padding:0 6px; width:200px; height:40px; line-height:40px; font-size:14px; background-color:#fff; border:1px solid #ddd; border-radius:4px;}
+.oc-inptxt-err[type='text'],
+.oc-inptxt-err[type='number'],
+.oc-inptxt-err[type='password']{ border-color:#d0011b;}
